@@ -56,7 +56,7 @@
 		
 **Expected Output**
 
-![Java Version Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Nutch/1.JPG)
+![Java Version Output](https://github.com/abhaymehtre/Software-Evaluation-Tool/blob/master/images/1.jpg)
 
 ##
 
