@@ -70,12 +70,12 @@ The cyclomatic complexity calculated for above code will be from control flow gr
  **Tools used for the calculating the cyclomatic Complexity are:**
  - Pycfg -  Usually, we draw manual _Control Flow Graph_ using pen and paper by analyzing the control flow of the program. CFG helps us finding independent paths ([Cyclomatic Complexity](https://www.geeksforgeeks.org/cyclomatic-complexity/)), which leads to the number of test cases required to test the program. We can automate the CFG task using a Python library called [pycfg](https://pypi.org/project/pycfg/). This library takes a Python script as input and gives graph as output.
 
-![Installation Instructions](https://github.com/abhaymehtre/Software-Evaluation-Tool/blob/master/Pycfg%20Installation%20Procedure.md)
+[Installation Instructions](https://github.com/abhaymehtre/Software-Evaluation-Tool/blob/master/Pycfg%20Installation%20Procedure.md)
 
 - Graphviz - Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. Automatic graph drawing has many important applications in software engineering, database and web design, networking, and in visual interfaces for many other domains. 
 	- Graphviz is open source graph visualization software. It has several main graph layout programs. See the  [gallery](https://graphviz.org/gallery)  for some sample layouts. It also has web and interactive graphical interfaces, and auxiliary tools, libraries, and language bindings.
 
-![Installation Instructions](https://github.com/abhaymehtre/Software-Evaluation-Tool/blob/master/Graphviz%20Installation%20Procedure.md)
+[Installation Instructions](https://github.com/abhaymehtre/Software-Evaluation-Tool/blob/master/Graphviz%20Installation%20Procedure.md)
 
 
 - Radon - Radon is a Python tool that computes various metrics from the source code. Radon can compute:
@@ -84,5 +84,5 @@ The cyclomatic complexity calculated for above code will be from control flow gr
 	-   **Halstead**  metrics (all of them)
 	-   **Maintainability Index**  (the one used in Visual Studio)
 
-![Installation Instructions](https://github.com/abhaymehtre/Software-Evaluation-Tool/blob/master/Radon%20Installation%20Procedure.md)
+[Installation Instructions](https://github.com/abhaymehtre/Software-Evaluation-Tool/blob/master/Radon%20Installation%20Procedure.md)
 
