@@ -43,7 +43,11 @@ Radon :
 
 Syntax : radon cc path to the file ex: /home/user/Desktop/xyz/filename.py -a -nc
 
+Note :
+cc is the radon command to compute Cyclomatic Complexity
+-a tells radon to calculate the average complexity at the end. Note that the average is computed among the shown blocks. If you want the total average, among all the blocks, regardless of what is being shown, you should use --total-average.
+-nc tells radon to print only results with a complexity rank of C or worse. Other examples: -na (from A to F), or -nd (from D to F).
+The letter in front of the line numbers represents the type of the block (F means function, M method and C class)
+
 Please note the complete installation duration would take almost 20-30 minutes.
-
-
 
