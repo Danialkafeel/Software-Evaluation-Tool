@@ -1,5 +1,4 @@
-Software Evaluation Tool
-
+Code Complexity Evaluation Tool
 
 **What is a Cyclomatic complexity?**
 
