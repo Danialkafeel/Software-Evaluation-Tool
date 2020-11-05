@@ -23,7 +23,7 @@ Once the changes to the files are done, then save the file and the output of the
 
 python3 path to /pycfg-0.1/pycfg/pycfg.py path-to-code file.
 Example : if you have created a file/folder in desktop like xyz then : 
-python or python3 /home/user/Desktop/xyz/pycfg-0.1/pycfg/pycfg.py /home/user/Desktop/xyz//filename.py -d
+python or python3 /home/user/Desktop/xyz/pycfg-0.1/pycfg/pycfg.py /home/user/Desktop/xyz/filename.py -d
 
 This above syntax would help you run the code and you get the visualization in the folder allocated.
 
