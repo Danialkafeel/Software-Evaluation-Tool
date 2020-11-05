@@ -1,6 +1,6 @@
-**Code Complexity Evaluation Tool**
+Code Complexity Evaluation Tool
 
-**Errors faced during Installation**
+Errors faced during Installation
 
 There would be some errors you might encounter while installing the codes, please be careful in using the python versions. The tools would run both on Python version 2.7 and the latest version of python.
 
@@ -13,7 +13,8 @@ Please use the compressed file downloaded for Graphviz and Pycfg.
 
 For radon, just use pip or pip3 install radon.
 
-**Note**
+**Not**
+
 1. While installing the pycfg tool, please download the zip file of the pycfg and then proceed to the pycfg.py file, in that file go to line number 469 and there change the line to g.draw(args.pythonfile + '.svg' , prog='dot'). 
 
 Once the changes to the files are done, then save the file and the output of the code would be stored in the directory of location of the file/folder you have allocated.
