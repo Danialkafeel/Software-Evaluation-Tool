@@ -13,7 +13,7 @@ Please use the compressed file downloaded for Graphviz and Pycfg.
 
 For radon, just use pip or pip3 install radon.
 
-**Not**
+**Note**
 
 1. While installing the pycfg tool, please download the zip file of the pycfg and then proceed to the pycfg.py file, in that file go to line number 469 and there change the line to g.draw(args.pythonfile + '.svg' , prog='dot'). 
 
@@ -40,6 +40,8 @@ While running the code please install the libraries which would be poped-up as e
 Radon :
 
 Syntax : radon cc path to the file ex: /home/user/Desktop/xyz/filename.py -a -nc
+
+Please note the complete installation duration would take almost 20-30 minutes.
 
 
 
