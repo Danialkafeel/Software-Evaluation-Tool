@@ -1,0 +1,58 @@
+﻿**Code Complexity Evaluation Tool**
+
+**Errors faced during Installation**
+
+There would be some errors you might encounter while installing the codes, please be careful in using the python versions. The tools would run both on Python version 2.7 and the latest version of python.
+
+Please ensure you always make an directory on the specific location which would be used at the time of generating the output of CFG's. 
+
+If possible please use the UI for most of the installation especially for Pycfg and graphviz configuration. 
+
+Please use the compressed file downloaded for Graphviz and Pycfg.
+
+
+	For radon, just use pip or pip3 install radon.
+
+**Note**
+
+1. While installing the pycfg tool, please download the zip file of the pycfg and then proceed to the pycfg.py file, in that file go to line number 469 and there change the line to g.draw(args.pythonfile + '.svg' , prog='dot'). 
+
+Once the changes to the files are done, then save the file and the output of the code would be stored in the directory of location of the file/folder you have allocated.
+
+2. While installing the Graphviz tool, please ensure the extraction file is downloaded and extracted to the same folder/directory as of the above pycfg tool. Use ./configure, make , make install to get the graphviz installed and configured then try to run the code using the below statement:
+
+		python3 path to /pycfg-0.1/pycfg/pycfg.py path-to-code file.
+		
+Example : if you have created a file/folder in desktop like xyz then : 
+		
+	python or python3 /home/user/Desktop/xyz/pycfg-0.1/pycfg/pycfg.py /home/user/Desktop/xyz/filename.py -d
+
+This above syntax would help you run the code and you get the visualization in the folder allocated. 
+
+Please note that don't install the pygraphviz library, before installating the graphviz tool.
+
+Commands for syntax :
+
+Pycfg and Graphviz
+
+	python3 path to /pycfg-0.1/pycfg/pycfg.py path-to-code file.
+Example : if you have created a file/folder in desktop like xyz then : 
+python or python3 /home/user/Desktop/xyz/pycfg-0.1/pycfg/pycfg.py /home/user/Desktop/xyz/filename.py -d
+
+While running the code please install the libraries which would be poped-up as error at the time of execution.
+
+Radon :
+
+Syntax : radon cc path to the file ex: /home/user/Desktop/xyz/filename.py -a -nc
+
+Note :
+cc is the radon command to compute Cyclomatic Complexity
+-a tells radon to calculate the average complexity at the end. Note that the average is computed among the shown blocks. If you want the total average, among all the blocks, regardless of what is being shown, you should use --total-average.
+-nc tells radon to print only results with a complexity rank of C or worse. Other examples: -na (from A to F), or -nd (from D to F).
+The letter in front of the line numbers represents the type of the block (F means function, M method and C class)
+
+Please note the complete installation duration would take almost 20-30 minutes.
+
+Incase any issues please contact abhay.mehtre@students.iiit.ac.in or Mentor or the TA's for the problems.
+
+
