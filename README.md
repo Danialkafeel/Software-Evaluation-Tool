@@ -65,6 +65,14 @@ The cyclomatic complexity calculated for above code will be from control flow gr
 -   In this, nested conditional structures are harder to understand than non-nested structures.
 -   In case of simple comparisons and decision strucures, it may give a misleading figure.
 
+**Installation Steps for the Cyclomatic Complexity Tools**
+-   Please follow the below steps to get a proper installation of tools done.
+-   Install Pycfg in the first place.
+-   Secondly, use the installation procedure for graphviz and 
+-   Lastly, install radon.
+
+The above flow has to be strictly be followed. Incase of any other flow you would end into trouble while installing the tools.
+
 
  **Tools used for the calculating the cyclomatic Complexity are:**
  - Pycfg -  Usually, we draw manual _Control Flow Graph_ using pen and paper by analyzing the control flow of the program. CFG helps us finding independent paths ([Cyclomatic Complexity](https://www.geeksforgeeks.org/cyclomatic-complexity/)), which leads to the number of test cases required to test the program. We can automate the CFG task using a Python library called [pycfg](https://pypi.org/project/pycfg/). This library takes a Python script as input and gives graph as output.
